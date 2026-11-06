@@ -1,0 +1,136 @@
+{
+  "study_id": "factor-iteration-20261030",
+  "published_on": "2026-11-06",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 33,
+      "sha256": "fa5b2d4433b835933b22140e01833a4972a0ee8532d76951286e3dd071994af0"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 497,
+      "sha256": "ce7d24e49e3d102c486cbe147be057e0f6b07e87e67dc5174e619a7c5b3e22e1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2807,
+      "sha256": "03886307ae4f1aaa7f7dadf3434981aa1025369ed6a7065e54f9d1ac8b7910fb"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 1870,
+      "sha256": "fe9e1a456e8570ca1b62a8f0fb100f039184632b064d0d44804778e6417e4891"
+    },
+    {
+      "path": "data/candidates.csv",
+      "bytes": 6672,
+      "sha256": "b40d17e9aefd17f773dd3179db15e99a6f3c60882df55e4efb78c4ed0168cae5"
+    },
+    {
+      "path": "data/candidates.json",
+      "bytes": 19198,
+      "sha256": "ce8e94f01389c78fba120570f931799ec3263b1f288efde506644bd95101c7c5"
+    },
+    {
+      "path": "data/classic-frontier.json",
+      "bytes": 8080,
+      "sha256": "398160106c002bffedb0e5d94f4595832d7cda61dcd3f6ce4b70f623ad939deb"
+    },
+    {
+      "path": "data/evaluation/T008.json",
+      "bytes": 11561,
+      "sha256": "07feb9816927736650857db2179ae7eae718b17e0fe96b23f1b9e0ec8750cf0e"
+    },
+    {
+      "path": "data/evaluation/T029.json",
+      "bytes": 11573,
+      "sha256": "e2f60d373a3ed88d11bf642bb1348dab85777df2992c5cf2870a0788d1962e04"
+    },
+    {
+      "path": "data/evaluation/T043.json",
+      "bytes": 11561,
+      "sha256": "9d26c7dc51fe25859fab2d1f399d5551705c4b84d08748962b340674489974b9"
+    },
+    {
+      "path": "data/evaluation/T045.json",
+      "bytes": 11612,
+      "sha256": "62cfd90db163cbb024b877e306bce0294ddb787e401e3ee60f8121aa018f0e76"
+    },
+    {
+      "path": "data/evaluation/T049.json",
+      "bytes": 11633,
+      "sha256": "9fd83577f4d93e16295f3a51154f90e64b810fb9fa62bb2eda0427e80b7e9d6e"
+    },
+    {
+      "path": "data/nominees.csv",
+      "bytes": 2501,
+      "sha256": "1f9310fe4153fea58b62556b2c77cad47745ac7557477a5b554e1f16c0f1953f"
+    },
+    {
+      "path": "figures/sharpe-drawdown-comparison.png",
+      "bytes": 412444,
+      "sha256": "d9812dfa8290a96afe28045e67d45e5470e9f3b4fd01699268a58c42ac6c9cf9"
+    },
+    {
+      "path": "figures/sharpe-drawdown-comparison.svg",
+      "bytes": 168961,
+      "sha256": "2557def4d332dd76b5c30feecdf41eacb3c8826110a1d68637d94f4cc276c2f1"
+    },
+    {
+      "path": "reports/AUDIT.md",
+      "bytes": 2638,
+      "sha256": "97d1d3dc40b9289c486fb895c97b47acf3694db083761d474ca5ce3640667289"
+    },
+    {
+      "path": "reports/DEVELOPMENT.md",
+      "bytes": 6439,
+      "sha256": "54f84c1617b5331a353f5d198647e009dacdc1ba99815fa41c1349500cabf278"
+    },
+    {
+      "path": "reports/RESULTS.md",
+      "bytes": 11374,
+      "sha256": "b59e2e2f4ad14d9e84367c8b57dbb6d54993d3ab63b326bed9cd0e6dc8b90ce9"
+    },
+    {
+      "path": "research/CH.md",
+      "bytes": 1741,
+      "sha256": "d7164c6b9a59eede5f3c80e59b3133d8e6d18faa51394ade24bcca79531cb7bb"
+    },
+    {
+      "path": "research/EBC.md",
+      "bytes": 1730,
+      "sha256": "f93ddd065e755aa23ac797326caaed49281bae8b587f51bdf57aa0151ce50945"
+    },
+    {
+      "path": "research/FSA.md",
+      "bytes": 1731,
+      "sha256": "4fcae61d350a3371990950b8daaddbe150e23219e207ab9b0ad324d4b03eca8f"
+    },
+    {
+      "path": "research/LVRM.md",
+      "bytes": 1438,
+      "sha256": "3964a3681cd8af91facd483e1565199bf5d0676765233f05948b65794a4d07c2"
+    },
+    {
+      "path": "research/ORAC.md",
+      "bytes": 1706,
+      "sha256": "91805c068d3a3272149de3bf73a3dc04e8d9fe8539a7173bc8ce543b19528303"
+    },
+    {
+      "path": "research/PDR.md",
+      "bytes": 1730,
+      "sha256": "47e6a7ec0ca612c8bc0701176993871acfa4c72aaad5b422189da1e3ebc42884"
+    },
+    {
+      "path": "research/SCA.md",
+      "bytes": 1428,
+      "sha256": "75c41190cda68f09fb47d254f59bf0c566aa4f8c182fd5a990168e5593b1ce65"
+    },
+    {
+      "path": "tools/verify_results.py",
+      "bytes": 1251,
+      "sha256": "e8cd3c8d21175afd2609a7998883ae34f9e1d7bdc5ffce6af905d4c663397315"
+    }
+  ]
+}

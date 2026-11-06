@@ -1,0 +1,390 @@
+{
+  "trial_id": "T045",
+  "candidate_id": "C4925-R2-K425",
+  "baseline": "dividend",
+  "nominal": {
+    "combined": {
+      "candidate": {
+        "days": 181,
+        "sharpe": 0.06131066009402275,
+        "max_drawdown": 0.0772862434387207,
+        "net_return": 0.0010137557983398438
+      },
+      "baseline": {
+        "days": 181,
+        "sharpe": -0.26457202434539795,
+        "max_drawdown": 0.07981538772583008,
+        "net_return": -0.02077770233154297
+      },
+      "pareto": true,
+      "sharpe_improvement": 0.3258826844394207,
+      "drawdown_reduction": 0.002529144287109375
+    },
+    "H1": {
+      "candidate": {
+        "days": 116,
+        "sharpe": -0.8099144697189331,
+        "max_drawdown": 0.0772862434387207,
+        "net_return": -0.038560330867767334
+      },
+      "baseline": {
+        "days": 116,
+        "sharpe": -1.1643980741500854,
+        "max_drawdown": 0.07981538772583008,
+        "net_return": -0.05525702238082886
+      },
+      "pareto": true,
+      "sharpe_improvement": 0.35448360443115234,
+      "drawdown_reduction": 0.002529144287109375
+    },
+    "Q3": {
+      "candidate": {
+        "days": 65,
+        "sharpe": 2.0437772274017334,
+        "max_drawdown": 0.02606654167175293,
+        "net_return": 0.041161179542541504
+      },
+      "baseline": {
+        "days": 65,
+        "sharpe": 1.824397087097168,
+        "max_drawdown": 0.024269282817840576,
+        "net_return": 0.03649592399597168
+      },
+      "pareto": false,
+      "sharpe_improvement": 0.21938014030456543,
+      "drawdown_reduction": -0.0017972588539123535
+    }
+  },
+  "stresses": {
+    "commission": {
+      "combined": {
+        "candidate": {
+          "days": 181,
+          "sharpe": 0.05598898604512215,
+          "max_drawdown": 0.07742416858673096,
+          "net_return": 0.0006603002548217773
+        },
+        "baseline": {
+          "days": 181,
+          "sharpe": -0.26954516768455505,
+          "max_drawdown": 0.0799453854560852,
+          "net_return": -0.021105647087097168
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.3255341537296772,
+        "drawdown_reduction": 0.002521216869354248
+      },
+      "H1": {
+        "candidate": {
+          "days": 116,
+          "sharpe": -0.815501868724823,
+          "max_drawdown": 0.07742416858673096,
+          "net_return": -0.03880518674850464
+        },
+        "baseline": {
+          "days": 116,
+          "sharpe": -1.1695895195007324,
+          "max_drawdown": 0.0799453854560852,
+          "net_return": -0.05548357963562012
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.3540876507759094,
+        "drawdown_reduction": 0.002521216869354248
+      },
+      "Q3": {
+        "candidate": {
+          "days": 65,
+          "sharpe": 2.0386714935302734,
+          "max_drawdown": 0.026080012321472168,
+          "net_return": 0.04105865955352783
+        },
+        "baseline": {
+          "days": 65,
+          "sharpe": 1.8195377588272095,
+          "max_drawdown": 0.02427661418914795,
+          "net_return": 0.036397457122802734
+        },
+        "pareto": false,
+        "sharpe_improvement": 0.21913373470306396,
+        "drawdown_reduction": -0.0018033981323242188
+      }
+    },
+    "slippage": {
+      "combined": {
+        "candidate": {
+          "days": 181,
+          "sharpe": 0.032980937510728836,
+          "max_drawdown": 0.07800811529159546,
+          "net_return": -0.000865638256072998
+        },
+        "baseline": {
+          "days": 181,
+          "sharpe": -0.2892821729183197,
+          "max_drawdown": 0.08045625686645508,
+          "net_return": -0.02240687608718872
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.32226311042904854,
+        "drawdown_reduction": 0.002448141574859619
+      },
+      "H1": {
+        "candidate": {
+          "days": 116,
+          "sharpe": -0.8369896411895752,
+          "max_drawdown": 0.07800811529159546,
+          "net_return": -0.03976041078567505
+        },
+        "baseline": {
+          "days": 116,
+          "sharpe": -1.1900697946548462,
+          "max_drawdown": 0.08045625686645508,
+          "net_return": -0.05638015270233154
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.353080153465271,
+        "drawdown_reduction": 0.002448141574859619
+      },
+      "Q3": {
+        "candidate": {
+          "days": 65,
+          "sharpe": 2.0138378143310547,
+          "max_drawdown": 0.02613776922225952,
+          "net_return": 0.040505170822143555
+        },
+        "baseline": {
+          "days": 65,
+          "sharpe": 1.8000361919403076,
+          "max_drawdown": 0.024307191371917725,
+          "net_return": 0.03600311279296875
+        },
+        "pareto": false,
+        "sharpe_improvement": 0.21380162239074707,
+        "drawdown_reduction": -0.0018305778503417969
+      }
+    },
+    "capacity": {
+      "combined": {
+        "candidate": {
+          "days": 181,
+          "sharpe": -0.007956672459840775,
+          "max_drawdown": 0.06046956777572632,
+          "net_return": -0.0019407272338867188
+        },
+        "baseline": {
+          "days": 181,
+          "sharpe": -0.45489442348480225,
+          "max_drawdown": 0.06320643424987793,
+          "net_return": -0.023489534854888916
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.44693775102496147,
+        "drawdown_reduction": 0.0027368664741516113
+      },
+      "H1": {
+        "candidate": {
+          "days": 116,
+          "sharpe": -0.9838483333587646,
+          "max_drawdown": 0.06046956777572632,
+          "net_return": -0.0327378511428833
+        },
+        "baseline": {
+          "days": 116,
+          "sharpe": -1.430284857749939,
+          "max_drawdown": 0.06320643424987793,
+          "net_return": -0.04848402738571167
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.4464365243911743,
+        "drawdown_reduction": 0.0027368664741516113
+      },
+      "Q3": {
+        "candidate": {
+          "days": 65,
+          "sharpe": 2.189502716064453,
+          "max_drawdown": 0.019348561763763428,
+          "net_return": 0.03183948993682861
+        },
+        "baseline": {
+          "days": 65,
+          "sharpe": 1.8453998565673828,
+          "max_drawdown": 0.01745682954788208,
+          "net_return": 0.0262681245803833
+        },
+        "pareto": false,
+        "sharpe_improvement": 0.3441028594970703,
+        "drawdown_reduction": -0.0018917322158813477
+      }
+    },
+    "delay": {
+      "combined": {
+        "candidate": {
+          "days": 181,
+          "sharpe": 0.04425188899040222,
+          "max_drawdown": 0.077567458152771,
+          "net_return": -8.225440979003906e-05
+        },
+        "baseline": {
+          "days": 181,
+          "sharpe": -0.21923840045928955,
+          "max_drawdown": 0.07888209819793701,
+          "net_return": -0.017779052257537842
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.2634902894496918,
+        "drawdown_reduction": 0.0013146400451660156
+      },
+      "H1": {
+        "candidate": {
+          "days": 116,
+          "sharpe": -0.8641690611839294,
+          "max_drawdown": 0.077567458152771,
+          "net_return": -0.04052335023880005
+        },
+        "baseline": {
+          "days": 116,
+          "sharpe": -1.0479735136032104,
+          "max_drawdown": 0.07888209819793701,
+          "net_return": -0.05026286840438843
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.183804452419281,
+        "drawdown_reduction": 0.0013146400451660156
+      },
+      "Q3": {
+        "candidate": {
+          "days": 65,
+          "sharpe": 2.1256637573242188,
+          "max_drawdown": 0.024856388568878174,
+          "net_return": 0.04214906692504883
+        },
+        "baseline": {
+          "days": 65,
+          "sharpe": 1.7273242473602295,
+          "max_drawdown": 0.023783206939697266,
+          "net_return": 0.03420281410217285
+        },
+        "pareto": false,
+        "sharpe_improvement": 0.39833950996398926,
+        "drawdown_reduction": -0.0010731816291809082
+      }
+    }
+  },
+  "sensitivity": {
+    "0.34": {
+      "combined": {
+        "candidate": {
+          "days": 181,
+          "sharpe": -0.03521035239100456,
+          "max_drawdown": 0.07613486051559448,
+          "net_return": -0.005419373512268066
+        },
+        "baseline": {
+          "days": 181,
+          "sharpe": -0.26457202434539795,
+          "max_drawdown": 0.07981538772583008,
+          "net_return": -0.02077770233154297
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.2293616719543934,
+        "drawdown_reduction": 0.0036805272102355957
+      },
+      "H1": {
+        "candidate": {
+          "days": 116,
+          "sharpe": -0.9395474791526794,
+          "max_drawdown": 0.07613486051559448,
+          "net_return": -0.044445157051086426
+        },
+        "baseline": {
+          "days": 116,
+          "sharpe": -1.1643980741500854,
+          "max_drawdown": 0.07981538772583008,
+          "net_return": -0.05525702238082886
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.224850594997406,
+        "drawdown_reduction": 0.0036805272102355957
+      },
+      "Q3": {
+        "candidate": {
+          "days": 65,
+          "sharpe": 2.0147955417633057,
+          "max_drawdown": 0.026200056076049805,
+          "net_return": 0.040840864181518555
+        },
+        "baseline": {
+          "days": 65,
+          "sharpe": 1.824397087097168,
+          "max_drawdown": 0.024269282817840576,
+          "net_return": 0.03649592399597168
+        },
+        "pareto": false,
+        "sharpe_improvement": 0.1903984546661377,
+        "drawdown_reduction": -0.0019307732582092285
+      }
+    },
+    "0.51": {
+      "combined": {
+        "candidate": {
+          "days": 181,
+          "sharpe": 0.0548316091299057,
+          "max_drawdown": 0.07741481065750122,
+          "net_return": 0.0005155801773071289
+        },
+        "baseline": {
+          "days": 181,
+          "sharpe": -0.26457202434539795,
+          "max_drawdown": 0.07981538772583008,
+          "net_return": -0.02077770233154297
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.31940363347530365,
+        "drawdown_reduction": 0.0024005770683288574
+      },
+      "H1": {
+        "candidate": {
+          "days": 116,
+          "sharpe": -0.8588411211967468,
+          "max_drawdown": 0.07741481065750122,
+          "net_return": -0.04127854108810425
+        },
+        "baseline": {
+          "days": 116,
+          "sharpe": -1.1643980741500854,
+          "max_drawdown": 0.07981538772583008,
+          "net_return": -0.05525702238082886
+        },
+        "pareto": true,
+        "sharpe_improvement": 0.3055569529533386,
+        "drawdown_reduction": 0.0024005770683288574
+      },
+      "Q3": {
+        "candidate": {
+          "days": 65,
+          "sharpe": 2.0352976322174072,
+          "max_drawdown": 0.027695894241333008,
+          "net_return": 0.043593525886535645
+        },
+        "baseline": {
+          "days": 65,
+          "sharpe": 1.824397087097168,
+          "max_drawdown": 0.024269282817840576,
+          "net_return": 0.03649592399597168
+        },
+        "pareto": false,
+        "sharpe_improvement": 0.21090054512023926,
+        "drawdown_reduction": -0.0034266114234924316
+      }
+    }
+  },
+  "uncertainty": {
+    "sharpe_improvement_lower": -0.19918057322502136,
+    "mdd_reduction_lower": -0.009538015350699425,
+    "observations": 181,
+    "samples": 20000,
+    "block_length": 20,
+    "seed": 20261030,
+    "tail_probability": 0.0003787878787878788,
+    "quantile_interpolation": "linear"
+  }
+}

@@ -23,9 +23,8 @@
 | [完整研究报告](reports/RESULTS.md) | 分阶段结果、压力、敏感度、不确定性、经典因子前沿与归因 |
 | [全部开发候选](reports/DEVELOPMENT.md) | 56 次候选的实际开发表现与对应完整规格 |
 | [审计与完整性记录](reports/AUDIT.md) | 因果性、复现、尝试计数、PDR 口径核对与适用范围 |
-| [复现说明](REPRODUCE.md) | 发布包校验、封存代码、输入要求与原账户重放 |
-| [候选规格](data/specifications/) | 56 个候选的完整公式、边界规则、参数、时点和补充约定 |
-| [账户结果](accounts/) | 124 个账户的配置、指标、日收益和复现收据 |
-| [原始封存材料](archives/) | 保留原始字节的 gzip 证据及 SHA-256 来源映射 |
+| [校验与数据说明](REPRODUCE.md) | 汇总文件校验、历史计算环境与输入要求 |
+| [候选汇总](data/candidates.csv) | 56 个候选的参数、开发指标、基准与提名状态 |
+| [冻结比较](data/nominees.csv) | 五个提名与基准的合并及分阶段汇总指标 |
 
 研究脉络：[第六讲「进化」讨论](https://github.com/aslan9/pku_quantllm/issues/10)。经典因子与底层系统：[factor-search](https://github.com/celestial-toymaker/factor-search)。协作技能：[Project Structure](https://github.com/celestial-toymaker/project-structure-skill)。

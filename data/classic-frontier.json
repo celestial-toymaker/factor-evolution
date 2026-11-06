@@ -1,0 +1,315 @@
+{
+  "periods": {
+    "combined": {
+      "records": [
+        {
+          "id": "value",
+          "kind": "classic",
+          "sharpe": -0.1695595532655716,
+          "max_drawdown": 0.11540907621383667
+        },
+        {
+          "id": "size",
+          "kind": "classic",
+          "sharpe": 0.3642648458480835,
+          "max_drawdown": 0.12570059299468994
+        },
+        {
+          "id": "momentum",
+          "kind": "classic",
+          "sharpe": 0.10209846496582031,
+          "max_drawdown": 0.41086268424987793
+        },
+        {
+          "id": "reversal",
+          "kind": "classic",
+          "sharpe": 0.6685474514961243,
+          "max_drawdown": 0.14834439754486084
+        },
+        {
+          "id": "low_volatility",
+          "kind": "classic",
+          "sharpe": -0.058807943016290665,
+          "max_drawdown": 0.061751723289489746
+        },
+        {
+          "id": "quality",
+          "kind": "classic",
+          "sharpe": -0.2757490873336792,
+          "max_drawdown": 0.13207131624221802
+        },
+        {
+          "id": "growth",
+          "kind": "classic",
+          "sharpe": 0.11552397161722183,
+          "max_drawdown": 0.15786010026931763
+        },
+        {
+          "id": "dividend",
+          "kind": "classic",
+          "sharpe": -0.26457202434539795,
+          "max_drawdown": 0.07981538772583008
+        },
+        {
+          "id": "liquidity",
+          "kind": "classic",
+          "sharpe": 0.5692992210388184,
+          "max_drawdown": 0.048296213150024414
+        },
+        {
+          "id": "investment",
+          "kind": "classic",
+          "sharpe": -0.5602319240570068,
+          "max_drawdown": 0.22230255603790283
+        },
+        {
+          "id": "T029",
+          "kind": "nominee",
+          "sharpe": -0.036395229399204254,
+          "max_drawdown": 0.11392176151275635
+        },
+        {
+          "id": "T049",
+          "kind": "nominee",
+          "sharpe": -0.24707026779651642,
+          "max_drawdown": 0.1205672025680542
+        },
+        {
+          "id": "T043",
+          "kind": "nominee",
+          "sharpe": -0.5017598271369934,
+          "max_drawdown": 0.19325220584869385
+        },
+        {
+          "id": "T008",
+          "kind": "nominee",
+          "sharpe": -0.016869187355041504,
+          "max_drawdown": 0.11891818046569824
+        },
+        {
+          "id": "T045",
+          "kind": "nominee",
+          "sharpe": 0.06131066009402275,
+          "max_drawdown": 0.0772862434387207
+        }
+      ],
+      "classic_frontier": [
+        "reversal",
+        "liquidity"
+      ],
+      "expanded_frontier": [
+        "reversal",
+        "liquidity"
+      ]
+    },
+    "H1": {
+      "records": [
+        {
+          "id": "value",
+          "kind": "classic",
+          "sharpe": -1.5163511037826538,
+          "max_drawdown": 0.11540907621383667
+        },
+        {
+          "id": "size",
+          "kind": "classic",
+          "sharpe": -0.8138550519943237,
+          "max_drawdown": 0.10035037994384766
+        },
+        {
+          "id": "momentum",
+          "kind": "classic",
+          "sharpe": 2.3516509532928467,
+          "max_drawdown": 0.15060335397720337
+        },
+        {
+          "id": "reversal",
+          "kind": "classic",
+          "sharpe": 0.8969884514808655,
+          "max_drawdown": 0.06198585033416748
+        },
+        {
+          "id": "low_volatility",
+          "kind": "classic",
+          "sharpe": -1.4782869815826416,
+          "max_drawdown": 0.061751723289489746
+        },
+        {
+          "id": "quality",
+          "kind": "classic",
+          "sharpe": 0.24613992869853973,
+          "max_drawdown": 0.10328221321105957
+        },
+        {
+          "id": "growth",
+          "kind": "classic",
+          "sharpe": 0.9128613471984863,
+          "max_drawdown": 0.11735862493515015
+        },
+        {
+          "id": "dividend",
+          "kind": "classic",
+          "sharpe": -1.1643980741500854,
+          "max_drawdown": 0.07981538772583008
+        },
+        {
+          "id": "liquidity",
+          "kind": "classic",
+          "sharpe": -0.084373340010643,
+          "max_drawdown": 0.0401342511177063
+        },
+        {
+          "id": "investment",
+          "kind": "classic",
+          "sharpe": -1.429830551147461,
+          "max_drawdown": 0.17473584413528442
+        },
+        {
+          "id": "T029",
+          "kind": "nominee",
+          "sharpe": 0.1845633089542389,
+          "max_drawdown": 0.11295115947723389
+        },
+        {
+          "id": "T049",
+          "kind": "nominee",
+          "sharpe": 0.1472644954919815,
+          "max_drawdown": 0.09705609083175659
+        },
+        {
+          "id": "T043",
+          "kind": "nominee",
+          "sharpe": -1.3367444276809692,
+          "max_drawdown": 0.14920896291732788
+        },
+        {
+          "id": "T008",
+          "kind": "nominee",
+          "sharpe": -0.338825523853302,
+          "max_drawdown": 0.10610085725784302
+        },
+        {
+          "id": "T045",
+          "kind": "nominee",
+          "sharpe": -0.8099144697189331,
+          "max_drawdown": 0.0772862434387207
+        }
+      ],
+      "classic_frontier": [
+        "momentum",
+        "reversal",
+        "growth",
+        "liquidity"
+      ],
+      "expanded_frontier": [
+        "momentum",
+        "reversal",
+        "growth",
+        "liquidity"
+      ]
+    },
+    "Q3": {
+      "records": [
+        {
+          "id": "value",
+          "kind": "classic",
+          "sharpe": 2.4091084003448486,
+          "max_drawdown": 0.03255796432495117
+        },
+        {
+          "id": "size",
+          "kind": "classic",
+          "sharpe": 2.4928274154663086,
+          "max_drawdown": 0.04616481065750122
+        },
+        {
+          "id": "momentum",
+          "kind": "classic",
+          "sharpe": -1.8193057775497437,
+          "max_drawdown": 0.40112966299057007
+        },
+        {
+          "id": "reversal",
+          "kind": "classic",
+          "sharpe": 0.5890775918960571,
+          "max_drawdown": 0.13785433769226074
+        },
+        {
+          "id": "low_volatility",
+          "kind": "classic",
+          "sharpe": 2.6630337238311768,
+          "max_drawdown": 0.027391433715820312
+        },
+        {
+          "id": "quality",
+          "kind": "classic",
+          "sharpe": -0.8802270293235779,
+          "max_drawdown": 0.08948659896850586
+        },
+        {
+          "id": "growth",
+          "kind": "classic",
+          "sharpe": -0.9033587574958801,
+          "max_drawdown": 0.15612852573394775
+        },
+        {
+          "id": "dividend",
+          "kind": "classic",
+          "sharpe": 1.824397087097168,
+          "max_drawdown": 0.024269282817840576
+        },
+        {
+          "id": "liquidity",
+          "kind": "classic",
+          "sharpe": 1.9667953252792358,
+          "max_drawdown": 0.01731419563293457
+        },
+        {
+          "id": "investment",
+          "kind": "classic",
+          "sharpe": 0.7633731365203857,
+          "max_drawdown": 0.0844072699546814
+        },
+        {
+          "id": "T029",
+          "kind": "nominee",
+          "sharpe": -0.35580727458000183,
+          "max_drawdown": 0.09440082311630249
+        },
+        {
+          "id": "T049",
+          "kind": "nominee",
+          "sharpe": -0.7334591150283813,
+          "max_drawdown": 0.09203040599822998
+        },
+        {
+          "id": "T043",
+          "kind": "nominee",
+          "sharpe": 0.713798999786377,
+          "max_drawdown": 0.07821476459503174
+        },
+        {
+          "id": "T008",
+          "kind": "nominee",
+          "sharpe": 0.5633981823921204,
+          "max_drawdown": 0.07552295923233032
+        },
+        {
+          "id": "T045",
+          "kind": "nominee",
+          "sharpe": 2.0437772274017334,
+          "max_drawdown": 0.02606654167175293
+        }
+      ],
+      "classic_frontier": [
+        "low_volatility",
+        "liquidity"
+      ],
+      "expanded_frontier": [
+        "low_volatility",
+        "liquidity",
+        "T045"
+      ]
+    }
+  }
+}
